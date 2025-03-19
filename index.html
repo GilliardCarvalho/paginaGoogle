@@ -2,139 +2,145 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 
 <body>
-    <>
-        <nav>
-            <a href="#" class="nav-link">Gmail</a>
-            <a href="#" class="nav-link">Imagens</a>
-            <button type="button" onclick="handVisibleMenuApp()">
-            <svg class="gb_Te" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg> 
-            </button>
-        </nav>
-        <div class="header__avatar">
-            <img 
-              src="https://lh3.googleusercontent.com/a/ACg8ocIJHrXejbPne48lEb18mAePSdv40zlcdJ5otVoffPI6qlBPgYD14w=s288"
-              alt="Avatar do Gilliard Carvalho"
-            />
-          </div>
-  
-          <div id="menu__app">
-            <div class="app__group">
-              <a class="app_item" href="">
-                <img src="/menu-app/search.png" alt="">
-                <strong>Busca</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/youtube.png" alt="">
-                <strong>Youtube</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/maps.png" alt="">
-                <strong>Maps</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/books.png" alt="">
-                <strong>Books</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/gmail.png" alt="">
-                <strong>Gmail</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/drive.png" alt="">
-                <strong>Drive</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/meet.png" alt="">
-                <strong>Meet</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/photos.png" alt="">
-                <strong>Photos</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/store.png" alt="">
-                <strong>Store</strong>
-              </a>
-            </div>
-  
-            <hr />
-  
-            <div class="app__group">
-              <a class="app_item" href="">
-                <img src="/menu-app/books.png" alt="">
-                <strong>Books</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/docs.png" alt="">
-                <strong>Docs</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/earth.png" alt="">
-                <strong>Earth</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/games.png" alt="">
-                <strong>Games</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/movies.png" alt="">
-                <strong>Movies</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/music.png" alt="">
-                <strong>Music</strong>
-              </a>
-              <a class="app_item" href="">
-                <img src="/menu-app/shopping.png" alt="">
-                <strong>Shopping</strong>
-              </a>
-            </div>
-          </div>
+  <div id="app">
+    <header class="header">
+
+      <nav>
+        <a href="#" class="nav-link">Gmail</a>
+        <a href="#" class="nav-link">Imagens</a>
+      </nav>
+
+      <button type="button" onclick="handleVisibleMenuApp()">
+
+        <svg class="gb_Te" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+      </button>
+
+      <div class="header__avatar">
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocIJHrXejbPne48lEb18mAePSdv40zlcdJ5otVoffPI6qlBPgYD14w=s288"
+          alt="Avatar do Gilliard Carvalho" />
+      </div>
+
+      <div id="menu__app">
+        <div class="app__group">
+          <a class="app_item" href="">
+            <img src="/menu-app/search.png" alt="">
+            <strong>Busca</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/youtube.png" alt="">
+            <strong>Youtube</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/maps.png" alt="">
+            <strong>Maps</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/books.png" alt="">
+            <strong>Books</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/gmail.png" alt="">
+            <strong>Gmail</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/drive.png" alt="">
+            <strong>Drive</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/meet.png" alt="">
+            <strong>Meet</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/photos.png" alt="">
+            <strong>Photos</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/store.png" alt="">
+            <strong>Store</strong>
+          </a>
+        </div>
+
+        <hr />
+
+        <div class="app__group">
+          <a class="app_item" href="">
+            <img src="/menu-app/books.png" alt="">
+            <strong>Livros</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/docs.png" alt="">
+            <strong>Docs</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/earth.png" alt="">
+            <strong>Earth</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/games.png" alt="">
+            <strong>Games</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/movies.png" alt="">
+            <strong>Filmes</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/music.png" alt="">
+            <strong>Música</strong>
+          </a>
+          <a class="app_item" href="">
+            <img src="/menu-app/shopping.png" alt="">
+            <strong>Shopping</strong>
+          </a>
+        </div>
+      </div>
     </header>
 
     <main>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google"
-            class="logo">
-        <div class="search-bar">
-            <input type="text" class="search-box" placeholder="Pesquise no Google ou digite um URL">
-            <span class="material-symbols-outlined">
-                keyboard
-            </span>
-            <span class="material-symbols-outlined">
-                mic
-            </span>
-            <span class="material-symbols-outlined">
-                photo_camera
-            </span>
-        </div>
-        <div class="buttons">
-            <button>Pesquisa Google</button>
-            <button>Estou com sorte</button>
-        </div>
+      <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google"
+        class="logo">
+        
+      <div class="search-bar">
+        <input type="text" class="search-box" placeholder="Pesquise no Google ou digite um URL">
+        <span class="material-symbols-outlined">
+          keyboard
+        </span>
+        <span class="material-symbols-outlined">
+          mic
+        </span>
+        <span class="material-symbols-outlined">
+          photo_camera
+        </span>
+      </div>
+      <div class="search">
+       
+      <div class="buttons">
+        <button>Pesquisa Google</button>
+        <button>Estou com sorte</button>
+      </div>
     </main>
     <footer>
-        <div>Brasil</div>
-        <div class="footer-options">
-            <div>
-                <a href="./sobre"><span>Sobre</span></a>
-                <span>Publicidade</span>
-                <a href="./negocios.html"> <span>Negócios</span></a>
-                <span>Como funciona a Pesquisa</span>
-            </div>
-
-            <div><span>Privacidade</span> <span> Termos</span> <span>Configurações</span></div>
+      <div>Brasil</div>
+      <div class="footer-options">
+        <div>
+          <a href="./sobre"><span>Sobre</span></a>
+          <span>Publicidade</span>
+          <a href="./negocios.html"> <span>Negócios</span></a>
+          <span>Como funciona a Pesquisa</span>
         </div>
-    </footer>
 
+        <div><span>Privacidade</span> <span> Termos</span> <span>Configurações</span></div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>

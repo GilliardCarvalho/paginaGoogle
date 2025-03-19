@@ -283,11 +283,11 @@ footer {
     height: 40px;
     border-radius: 50%;
     background: transparent;
-    transition: background 0.2s;
+    transition: background 0.3s;
   }
   
   .header button:hover {
-    background: rgba(60, 64, 67, 0.08);
+    background: rgba(0, 0, 0, 0.08);
   }
   
   .header button svg {
@@ -297,7 +297,7 @@ footer {
   }
   
   .header button svg path {
-    fill: #5f6368;
+    fill: #0a0a0a;
   }
   
   .header__avatar {
