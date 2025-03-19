@@ -33,7 +33,6 @@ function handleHistory() {
     const anchor = document.createElement('a')
     anchor.setAttribute('href', BASE_URL.concat(historyItem))
 
-    // TEMA: Fazer de forma mais elegante
     anchor.innerHTML = ICON_CLOCK + `<span>${historyItem}</span>` + '<button>excluir</button>'
 
     li.appendChild(anchor)
